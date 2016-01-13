@@ -1,0 +1,42 @@
+@import 'mixins.scss';
+
+
+.youtube_stats {
+  width: 100%;
+  max-width: 800px;
+  display: block;
+  margin: auto;
+
+
+  .video {
+    margin-bottom: 1em;
+
+    .ratio {
+      @include ratio(16, 9);
+    }
+  }
+
+
+  .stats {
+
+    .title {
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
+
+    .views {
+      display: inline-block;
+    }
+
+    .post {
+      padding-right: .4em;
+      padding-left: .4em;
+      display: inline-block;
+      font-weight: 300;
+    }
+
+    .date {
+      display: inline-block;
+    }
+  }
+}

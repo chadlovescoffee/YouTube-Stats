@@ -1,0 +1,7 @@
+{
+  "name" : "youtube_stats",
+  "version": "1.0",
+  "main": "youtube_stats.js",
+  "style" : "*.scss",
+  "transforms" : [ "sass-css-stream" ]
+}
